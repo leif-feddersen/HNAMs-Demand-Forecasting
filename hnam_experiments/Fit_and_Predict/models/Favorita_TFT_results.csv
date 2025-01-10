@@ -1,0 +1,6 @@
+n_params,train_end,val_loss,test_loss,seconds_training,seconds_inference,path
+82040,1429,0.8390904068946838,0.8963764309883118,16950.308575,8.215214,models/Favorita/TFT/lightning_logs/version_0/checkpoints/model-07-0.839.ckpt
+82040,1461,0.9197419285774231,0.8548241853713989,19541.283053,6.868294,models/Favorita/TFT/lightning_logs/version_1/checkpoints/model-11-0.920.ckpt
+82040,1491,0.816633403301239,0.7606721520423889,27966.274232,6.886132,models/Favorita/TFT/lightning_logs/version_2/checkpoints/model-27-0.817.ckpt
+82040,1519,0.7538179159164429,0.7850144505500793,28382.035097,7.78592,models/Favorita/TFT/lightning_logs/version_3/checkpoints/model-26-0.754.ckpt
+82040,1550,0.7974817752838135,0.7640082240104675,15988.405465,7.381792,models/Favorita/TFT/lightning_logs/version_4/checkpoints/model-00-0.797.ckpt

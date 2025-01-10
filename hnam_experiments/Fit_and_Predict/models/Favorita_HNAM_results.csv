@@ -1,0 +1,6 @@
+n_params,train_end,val_loss,test_loss,seconds_training,seconds_inference,path
+11024,1429,0.8417088389396667,0.9711553454399109,4545.762617,6.932344,models/Favorita/HNAM/lightning_logs/version_0/checkpoints/model-37-0.842.ckpt
+11024,1461,0.9854384064674377,0.876886785030365,2580.401534,5.910329,models/Favorita/HNAM/lightning_logs/version_1/checkpoints/model-08-0.985.ckpt
+11024,1491,0.8251459002494812,0.7598255276679993,2939.260433,6.659598,models/Favorita/HNAM/lightning_logs/version_2/checkpoints/model-12-0.825.ckpt
+11024,1519,0.7455580234527588,0.7869868278503418,3473.347178,9.709797,models/Favorita/HNAM/lightning_logs/version_3/checkpoints/model-18-0.746.ckpt
+11024,1550,0.7867818474769592,0.759279191493988,4374.306292,7.166424,models/Favorita/HNAM/lightning_logs/version_4/checkpoints/model-29-0.787.ckpt

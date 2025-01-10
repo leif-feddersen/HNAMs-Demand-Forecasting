@@ -1,0 +1,16 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore unprocessed large datasets
+hnam_experiments/Datasets/Favorita/*
+!hnam_experimentsDatasets/Favorita/.gitkeep
+hnam_experiments/Datasets/Walmart/*
+!hnam_experimentsDatasets/Walmart/.gitkeep
+
+# Ignore complete dataset forecasts
+*_all.*
+*_insample.*
+
+# Auto generated
+__pycache__/

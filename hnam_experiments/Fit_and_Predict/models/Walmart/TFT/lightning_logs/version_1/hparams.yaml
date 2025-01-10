@@ -1,0 +1,608 @@
+attention_head_size: 1
+categorical_groups: {}
+causal_attention: true
+dropout: 0.5
+embedding_labels:
+  Cultural:
+    '-': 0
+    Cinco De Mayo: 1
+    Cinco De Mayo-1: 2
+    Cinco De Mayo-2: 3
+    Cinco De Mayo-3: 4
+    Cinco De Mayo-4: 5
+    Cinco De Mayo-5: 6
+    Easter: 7
+    Easter-1: 8
+    Easter-2: 9
+    Easter-3: 10
+    Easter-4: 11
+    Easter-5: 12
+    Father's day: 13
+    Father's day-1: 14
+    Father's day-2: 15
+    Father's day-3: 16
+    Father's day-4: 17
+    Father's day-5: 18
+    Halloween: 19
+    Halloween-1: 20
+    Halloween-2: 21
+    Halloween-3: 22
+    Halloween-4: 23
+    Halloween-5: 24
+    Mother's day: 25
+    Mother's day-1: 26
+    Mother's day-2: 27
+    Mother's day-3: 28
+    Mother's day-4: 29
+    Mother's day-5: 30
+    StPatricksDay: 31
+    StPatricksDay-1: 32
+    StPatricksDay-2: 33
+    StPatricksDay-3: 34
+    StPatricksDay-4: 35
+    StPatricksDay-5: 36
+    ValentinesDay: 37
+    ValentinesDay-1: 38
+    ValentinesDay-2: 39
+    ValentinesDay-3: 40
+    ValentinesDay-4: 41
+    ValentinesDay-5: 42
+  National:
+    '-': 0
+    Christmas: 1
+    Christmas-1: 2
+    Christmas-2: 3
+    Christmas-3: 4
+    Christmas-4: 5
+    Christmas-5: 6
+    ColumbusDay: 7
+    ColumbusDay-1: 8
+    ColumbusDay-2: 9
+    ColumbusDay-3: 10
+    ColumbusDay-4: 11
+    ColumbusDay-5: 12
+    IndependenceDay: 13
+    IndependenceDay-1: 14
+    IndependenceDay-2: 15
+    IndependenceDay-3: 16
+    IndependenceDay-4: 17
+    IndependenceDay-5: 18
+    LaborDay: 19
+    LaborDay-1: 20
+    LaborDay-2: 21
+    LaborDay-3: 22
+    LaborDay-4: 23
+    LaborDay-5: 24
+    MartinLutherKingDay: 25
+    MartinLutherKingDay-1: 26
+    MartinLutherKingDay-2: 27
+    MartinLutherKingDay-3: 28
+    MartinLutherKingDay-4: 29
+    MartinLutherKingDay-5: 30
+    MemorialDay: 31
+    MemorialDay-1: 32
+    MemorialDay-2: 33
+    MemorialDay-3: 34
+    MemorialDay-4: 35
+    MemorialDay-5: 36
+    NewYear: 37
+    NewYear-1: 38
+    NewYear-2: 39
+    NewYear-3: 40
+    NewYear-4: 41
+    NewYear-5: 42
+    PresidentsDay: 43
+    PresidentsDay-1: 44
+    PresidentsDay-2: 45
+    PresidentsDay-3: 46
+    PresidentsDay-4: 47
+    PresidentsDay-5: 48
+    Thanksgiving: 49
+    Thanksgiving-1: 50
+    Thanksgiving-2: 51
+    Thanksgiving-3: 52
+    Thanksgiving-4: 53
+    Thanksgiving-5: 54
+    VeteransDay: 55
+    VeteransDay-1: 56
+    VeteransDay-2: 57
+    VeteransDay-3: 58
+    VeteransDay-4: 59
+    VeteransDay-5: 60
+  Sporting:
+    '-': 0
+    NBAFinalsEnd: 1
+    NBAFinalsEnd-1: 2
+    NBAFinalsEnd-2: 3
+    NBAFinalsEnd-3: 4
+    NBAFinalsEnd-4: 5
+    NBAFinalsEnd-5: 6
+    NBAFinalsStart: 7
+    NBAFinalsStart-1: 8
+    NBAFinalsStart-2: 9
+    NBAFinalsStart-3: 10
+    NBAFinalsStart-4: 11
+    NBAFinalsStart-5: 12
+    SuperBowl: 13
+    SuperBowl-1: 14
+    SuperBowl-2: 15
+    SuperBowl-3: 16
+    SuperBowl-4: 17
+    SuperBowl-5: 18
+  art:
+    FOODS_1_012: 0
+    FOODS_1_018: 1
+    FOODS_1_046: 2
+    FOODS_1_082: 3
+    FOODS_1_085: 4
+    FOODS_1_096: 5
+    FOODS_1_099: 6
+    FOODS_1_104: 7
+    FOODS_1_129: 8
+    FOODS_1_161: 9
+    FOODS_1_170: 10
+    FOODS_1_200: 11
+    FOODS_1_218: 12
+    FOODS_2_016: 13
+    FOODS_2_019: 14
+    FOODS_2_056: 15
+    FOODS_2_152: 16
+    FOODS_2_175: 17
+    FOODS_2_181: 18
+    FOODS_2_197: 19
+    FOODS_2_222: 20
+    FOODS_2_244: 21
+    FOODS_2_276: 22
+    FOODS_2_318: 23
+    FOODS_2_325: 24
+    FOODS_2_326: 25
+    FOODS_2_347: 26
+    FOODS_2_368: 27
+    FOODS_2_371: 28
+    FOODS_2_380: 29
+    FOODS_3_042: 30
+    FOODS_3_064: 31
+    FOODS_3_080: 32
+    FOODS_3_099: 33
+    FOODS_3_107: 34
+    FOODS_3_109: 35
+    FOODS_3_135: 36
+    FOODS_3_226: 37
+    FOODS_3_228: 38
+    FOODS_3_252: 39
+    FOODS_3_282: 40
+    FOODS_3_313: 41
+    FOODS_3_321: 42
+    FOODS_3_349: 43
+    FOODS_3_372: 44
+    FOODS_3_376: 45
+    FOODS_3_377: 46
+    FOODS_3_389: 47
+    FOODS_3_413: 48
+    FOODS_3_455: 49
+    FOODS_3_458: 50
+    FOODS_3_462: 51
+    FOODS_3_473: 52
+    FOODS_3_477: 53
+    FOODS_3_487: 54
+    FOODS_3_499: 55
+    FOODS_3_503: 56
+    FOODS_3_516: 57
+    FOODS_3_530: 58
+    FOODS_3_532: 59
+    FOODS_3_555: 60
+    FOODS_3_570: 61
+    FOODS_3_586: 62
+    FOODS_3_587: 63
+    FOODS_3_607: 64
+    FOODS_3_654: 65
+    FOODS_3_661: 66
+    FOODS_3_668: 67
+    FOODS_3_672: 68
+    FOODS_3_681: 69
+    FOODS_3_694: 70
+    FOODS_3_695: 71
+    FOODS_3_697: 72
+    FOODS_3_702: 73
+    FOODS_3_714: 74
+    FOODS_3_734: 75
+    FOODS_3_741: 76
+    FOODS_3_744: 77
+    FOODS_3_746: 78
+    FOODS_3_752: 79
+    FOODS_3_756: 80
+    FOODS_3_804: 81
+    FOODS_3_811: 82
+    HOBBIES_1_004: 83
+    HOBBIES_1_048: 84
+    HOBBIES_1_147: 85
+    HOBBIES_1_158: 86
+    HOBBIES_1_354: 87
+    HOUSEHOLD_1_019: 88
+    HOUSEHOLD_1_040: 89
+    HOUSEHOLD_1_045: 90
+    HOUSEHOLD_1_051: 91
+    HOUSEHOLD_1_053: 92
+    HOUSEHOLD_1_066: 93
+    HOUSEHOLD_1_071: 94
+    HOUSEHOLD_1_072: 95
+    HOUSEHOLD_1_096: 96
+    HOUSEHOLD_1_110: 97
+    HOUSEHOLD_1_118: 98
+    HOUSEHOLD_1_147: 99
+    HOUSEHOLD_1_173: 100
+    HOUSEHOLD_1_179: 101
+    HOUSEHOLD_1_198: 102
+    HOUSEHOLD_1_214: 103
+    HOUSEHOLD_1_247: 104
+    HOUSEHOLD_1_254: 105
+    HOUSEHOLD_1_262: 106
+    HOUSEHOLD_1_277: 107
+    HOUSEHOLD_1_294: 108
+    HOUSEHOLD_1_303: 109
+    HOUSEHOLD_1_304: 110
+    HOUSEHOLD_1_306: 111
+    HOUSEHOLD_1_327: 112
+    HOUSEHOLD_1_334: 113
+    HOUSEHOLD_1_339: 114
+    HOUSEHOLD_1_351: 115
+    HOUSEHOLD_1_373: 116
+    HOUSEHOLD_1_389: 117
+    HOUSEHOLD_1_393: 118
+    HOUSEHOLD_1_399: 119
+    HOUSEHOLD_1_409: 120
+    HOUSEHOLD_1_418: 121
+    HOUSEHOLD_1_429: 122
+    HOUSEHOLD_1_439: 123
+    HOUSEHOLD_1_447: 124
+    HOUSEHOLD_1_448: 125
+    HOUSEHOLD_1_459: 126
+    HOUSEHOLD_1_465: 127
+    HOUSEHOLD_1_473: 128
+    HOUSEHOLD_1_494: 129
+    HOUSEHOLD_1_506: 130
+    HOUSEHOLD_1_514: 131
+    HOUSEHOLD_1_517: 132
+    HOUSEHOLD_1_521: 133
+    HOUSEHOLD_1_535: 134
+    HOUSEHOLD_1_540: 135
+  pos:
+    CA_1: 0
+    CA_2: 1
+    CA_3: 2
+    CA_4: 3
+    TX_1: 4
+    TX_2: 5
+    TX_3: 6
+    WI_1: 7
+    WI_2: 8
+    WI_3: 9
+  snap:
+    '-': 0
+    x: 1
+  weekday:
+    '0': 0
+    '1': 1
+    '2': 2
+    '3': 3
+    '4': 4
+    '5': 5
+    '6': 6
+embedding_paddings: []
+embedding_sizes:
+  Cultural: !!python/tuple
+  - 43
+  - 13
+  National: !!python/tuple
+  - 61
+  - 16
+  Sporting: !!python/tuple
+  - 19
+  - 8
+  art: !!python/tuple
+  - 136
+  - 25
+  pos: !!python/tuple
+  - 10
+  - 6
+  snap: !!python/tuple
+  - 2
+  - 1
+  weekday: !!python/tuple
+  - 7
+  - 5
+hidden_continuous_size: 8
+hidden_continuous_sizes: {}
+hidden_size: 32
+learning_rate: 0.001
+log_gradient_flow: false
+log_interval: -1
+log_val_interval: -1
+lstm_layers: 1
+max_encoder_length: 84
+monotone_constaints: {}
+optimizer: adamw
+optimizer_params: null
+output_size: 1
+output_transformer: !!python/object:pytorch_forecasting.data.encoders.GroupNormalizer
+  center: true
+  groups:
+  - time_series
+  method: standard
+  method_kwargs: {}
+  missing_:
+    center: 10.284048080444336
+    scale: 5.681664943695068
+  norm_: !!python/object:pandas.core.frame.DataFrame
+    _flags:
+      allows_duplicate_labels: true
+    _metadata: []
+    _mgr: !!python/object/apply:pandas.core.internals.managers.BlockManager
+    - !!python/tuple
+      - !!python/object/apply:pandas._libs.internals._unpickle_block
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - &id001 !!python/name:numpy.ndarray ''
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 2
+            - 417
+          - !!python/object/apply:numpy.dtype
+            args:
+            - f4
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - -1
+            - -1
+            - 0
+          - false
+          - !!binary |
+            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
+        - !!python/object/apply:builtins.slice
+          - 0
+          - 2
+          - 1
+        - 2
+    - - !!python/object/apply:pandas.core.indexes.base._new_Index
+        - &id002 !!python/name:pandas.core.indexes.base.Index ''
+        - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - !!binary |
+              Yg==
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 2
+            - !!python/object/apply:numpy.dtype
+              args:
+              - O8
+              - false
+              - true
+              state: !!python/tuple
+              - 3
+              - '|'
+              - null
+              - null
+              - null
+              - -1
+              - -1
+              - 63
+            - false
+            - - center
+              - scale
+          name: null
+      - !!python/object/apply:pandas.core.indexes.base._new_Index
+        - *id002
+        - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - !!binary |
+              Yg==
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 417
+            - !!python/object/apply:numpy.dtype
+              args:
+              - i8
+              - false
+              - true
+              state: !!python/tuple
+              - 3
+              - <
+              - null
+              - null
+              - null
+              - -1
+              - -1
+              - 0
+            - false
+            - !!binary |
+              AAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABgAAAAAAAAAH
+              AAAAAAAAAAgAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAsAAAAAAAAADAAAAAAAAAANAAAAAAAAAA4A
+              AAAAAAAADwAAAAAAAAAQAAAAAAAAABEAAAAAAAAAEgAAAAAAAAATAAAAAAAAABQAAAAAAAAAFQAA
+              AAAAAAAWAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAGwAAAAAAAAAcAAAA
+              AAAAAB0AAAAAAAAAHgAAAAAAAAAfAAAAAAAAACAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAACMAAAAA
+              AAAAJAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAoAAAAAAAAACkAAAAAAAAAKgAAAAAA
+              AAArAAAAAAAAACwAAAAAAAAALQAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAMAAAAAAAAAAxAAAAAAAA
+              ADIAAAAAAAAAMwAAAAAAAAA0AAAAAAAAADUAAAAAAAAANgAAAAAAAAA3AAAAAAAAADgAAAAAAAAA
+              OQAAAAAAAAA6AAAAAAAAADsAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAPwAAAAAAAABA
+              AAAAAAAAAEEAAAAAAAAAQgAAAAAAAABDAAAAAAAAAEQAAAAAAAAARQAAAAAAAABGAAAAAAAAAEcA
+              AAAAAAAASAAAAAAAAABJAAAAAAAAAEoAAAAAAAAASwAAAAAAAABMAAAAAAAAAE0AAAAAAAAATgAA
+              AAAAAABPAAAAAAAAAFAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAFMAAAAAAAAAVAAAAAAAAABVAAAA
+              AAAAAFYAAAAAAAAAVwAAAAAAAABYAAAAAAAAAFkAAAAAAAAAWgAAAAAAAABbAAAAAAAAAFwAAAAA
+              AAAAXQAAAAAAAABeAAAAAAAAAF8AAAAAAAAAYAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAYwAAAAAA
+              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
+          name: time_series
+    _typ: dataframe
+    attrs: {}
+  scale_by_group: false
+  transformation: null
+reduce_on_plateau_min_lr: 1.0e-05
+reduce_on_plateau_patience: 10
+reduce_on_plateau_reduction: 2.0
+rescale: false
+share_single_variable_networks: false
+static_categoricals:
+- art
+- pos
+static_reals: []
+time_varying_categoricals_decoder:
+- weekday
+- snap
+- Sporting
+- Cultural
+- National
+time_varying_categoricals_encoder:
+- weekday
+- snap
+- Sporting
+- Cultural
+- National
+time_varying_reals_decoder:
+- time_idx
+- relprice
+- doy_sine
+- doy_cosine
+- relative_time_idx
+time_varying_reals_encoder:
+- time_idx
+- relprice
+- doy_sine
+- doy_cosine
+- relative_time_idx
+- sales
+weight_decay: 0.01
+x_categoricals:
+- art
+- pos
+- weekday
+- snap
+- Sporting
+- Cultural
+- National
+x_reals:
+- time_idx
+- relprice
+- doy_sine
+- doy_cosine
+- relative_time_idx
+- sales

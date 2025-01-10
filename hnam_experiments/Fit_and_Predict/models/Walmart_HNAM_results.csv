@@ -1,0 +1,11 @@
+n_params,train_end,val_loss,test_loss,seconds_training,seconds_inference,path
+7388,1767,0.8164241909980774,0.8697265386581421,4572.693154,8.852099,models/Walmart/HNAM/lightning_logs/version_0/checkpoints/model-22-0.816.ckpt
+7388,1767,0.8170459866523743,0.8724516034126282,1952.864957,4.283973,models/Walmart/HNAM/lightning_logs/version_1/checkpoints/model-05-0.817.ckpt
+7388,1798,0.8743075728416443,0.8053309321403503,2221.985084,4.095746,models/Walmart/HNAM/lightning_logs/version_3/checkpoints/model-10-0.874.ckpt
+7388,1798,0.8721648454666138,0.8096515536308289,4941.548451,7.192938,models/Walmart/HNAM/lightning_logs/version_2/checkpoints/model-26-0.872.ckpt
+7388,1829,0.7974129319190979,0.926701009273529,2062.307468,3.827534,models/Walmart/HNAM/lightning_logs/version_4/checkpoints/model-06-0.797.ckpt
+7388,1858,0.9223750829696655,0.8520514369010925,1894.601729,3.755205,models/Walmart/HNAM/lightning_logs/version_6/checkpoints/model-02-0.922.ckpt
+7388,1829,0.7972652316093445,0.9354305863380432,2944.417593,6.491541,models/Walmart/HNAM/lightning_logs/version_5/checkpoints/model-02-0.797.ckpt
+7388,1858,0.9312063455581665,0.8507950901985168,3007.366511,6.321031,models/Walmart/HNAM/lightning_logs/version_8/checkpoints/model-02-0.931.ckpt
+7388,1889,0.8473416566848755,0.837535560131073,4886.946291,3.828886,models/Walmart/HNAM/lightning_logs/version_7/checkpoints/model-52-0.847.ckpt
+7388,1889,0.8503068685531616,0.8371978402137756,3356.683861,6.36966,models/Walmart/HNAM/lightning_logs/version_9/checkpoints/model-05-0.850.ckpt

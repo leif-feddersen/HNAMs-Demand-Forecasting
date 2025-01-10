@@ -1,0 +1,6 @@
+n_params,train_end,val_loss,test_loss,seconds_training,seconds_inference,path
+73960,1767,0.8209720253944397,0.8783377408981323,11120.947265,4.212525,models/Walmart/TFT/lightning_logs/version_0/checkpoints/model-04-0.821.ckpt
+73960,1798,0.87986820936203,0.819984495639801,10807.787636,3.158331,models/Walmart/TFT/lightning_logs/version_1/checkpoints/model-02-0.880.ckpt
+73960,1829,0.8288534879684448,0.9424673318862915,11490.469039,3.285463,models/Walmart/TFT/lightning_logs/version_2/checkpoints/model-03-0.829.ckpt
+73960,1858,0.9207757115364075,0.8719823360443115,10762.528429,3.357311,models/Walmart/TFT/lightning_logs/version_3/checkpoints/model-00-0.921.ckpt
+73960,1889,0.8649598956108093,0.857220470905304,11782.609394,3.373693,models/Walmart/TFT/lightning_logs/version_4/checkpoints/model-02-0.865.ckpt

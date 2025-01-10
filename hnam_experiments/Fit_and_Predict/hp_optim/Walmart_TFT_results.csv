@@ -1,0 +1,15 @@
+dropout,attention_head_size,hidden_size,lr,bs,grad_clip,enc_length,n_params,train_end,val_loss,test_loss,seconds_training,path
+0.1,4,240,0.001,128,100,84,2951380,1706,0.8525719046592712,0.8688298463821411,8525.117918,hp_optim/models/Walmart/TFT/lightning_logs/version_0/checkpoints/model-00-0.85.ckpt
+0.1,4,240,0.001,128,100,84,2951380,1737,0.8627607822418213,0.8422940969467163,8811.981297,hp_optim/models/Walmart/TFT/lightning_logs/version_1/checkpoints/model-00-0.86.ckpt
+0.3,4,128,0.01,256,1,28,868936,1706,0.8619113564491272,0.8753767013549805,4153.467439,hp_optim/models/Walmart/TFT/lightning_logs/version_2/checkpoints/model-05-0.86.ckpt
+0.3,4,128,0.01,256,1,28,868936,1737,0.8709100484848022,0.8526474833488464,3458.867393,hp_optim/models/Walmart/TFT/lightning_logs/version_3/checkpoints/model-00-0.87.ckpt
+0.5,1,32,0.001,256,1,84,73960,1706,0.8547594547271729,0.8656671643257141,6888.907166,hp_optim/models/Walmart/TFT/lightning_logs/version_4/checkpoints/model-02-0.85.ckpt
+0.5,1,32,0.001,256,1,84,73960,1737,0.8578067421913147,0.8397073149681091,6494.994438,hp_optim/models/Walmart/TFT/lightning_logs/version_5/checkpoints/model-00-0.86.ckpt
+0.1,1,32,0.01,128,1,84,73960,1706,0.8510635495185852,0.8667317032814026,7224.042674,hp_optim/models/Walmart/TFT/lightning_logs/version_6/checkpoints/model-01-0.85.ckpt
+0.1,1,32,0.01,128,1,84,73960,1737,0.8576968312263489,0.8408932685852051,7787.698713,hp_optim/models/Walmart/TFT/lightning_logs/version_7/checkpoints/model-02-0.86.ckpt
+0.1,1,128,0.01,256,100,84,893608,1706,0.8637986779212952,0.8759422302246094,6606.736393,hp_optim/models/Walmart/TFT/lightning_logs/version_8/checkpoints/model-00-0.86.ckpt
+0.1,1,128,0.01,256,100,84,893608,1737,0.8693092465400696,0.8489611148834229,7158.484335,hp_optim/models/Walmart/TFT/lightning_logs/version_9/checkpoints/model-01-0.87.ckpt
+0.3,4,128,0.01,128,0.1,28,868936,1706,0.858587920665741,0.8687575459480286,5349.304503,hp_optim/models/Walmart/TFT/lightning_logs/version_10/checkpoints/model-07-0.86.ckpt
+0.3,4,128,0.01,128,0.1,28,868936,1737,0.8620182275772095,0.8377135396003723,5925.993609,hp_optim/models/Walmart/TFT/lightning_logs/version_11/checkpoints/model-11-0.86.ckpt
+0.3,4,32,0.01,256,1,28,72400,1706,0.8570235967636108,0.8721038103103638,3738.221986,hp_optim/models/Walmart/TFT/lightning_logs/version_12/checkpoints/model-03-0.86.ckpt
+0.3,4,32,0.01,256,1,28,72400,1737,0.8666976690292358,0.8442061543464661,3366.139324,hp_optim/models/Walmart/TFT/lightning_logs/version_13/checkpoints/model-00-0.87.ckpt

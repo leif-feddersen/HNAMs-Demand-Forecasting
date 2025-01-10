@@ -1,0 +1,960 @@
+attention_head_size: 1
+categorical_groups: {}
+causal_attention: true
+dropout: 0.1
+embedding_labels:
+  art:
+    '1036689': 0
+    '1047679': 1
+    '1047680': 2
+    '1052563': 3
+    '105575': 4
+    '1057495': 5
+    '1083152': 6
+    '1083196': 7
+    '1105211': 8
+    '1109211': 9
+    '1109389': 10
+    '1121616': 11
+    '1134971': 12
+    '1146496': 13
+    '1146497': 14
+    '1146786': 15
+    '1146795': 16
+    '114790': 17
+    '1157561': 18
+    '115850': 19
+    '116017': 20
+    '1161571': 21
+    '1162382': 22
+    '1166474': 23
+    '1167614': 24
+    '1239858': 25
+    '1239867': 26
+    '1239868': 27
+    '1239897': 28
+    '1239899': 29
+    '1239901': 30
+    '1239902': 31
+    '129635': 32
+    '1309246': 33
+    '1333307': 34
+    '1402032': 35
+    '1403464': 36
+    '1427659': 37
+    '1428328': 38
+    '1457231': 39
+    '1459058': 40
+    '1463765': 41
+    '1463787': 42
+    '1463797': 43
+    '1463812': 44
+    '1463825': 45
+    '1463855': 46
+    '1463857': 47
+    '1463859': 48
+    '1463860': 49
+    '1463862': 50
+    '1463867': 51
+    '1463881': 52
+    '1463885': 53
+    '1463896': 54
+    '1463992': 55
+    '1463993': 56
+    '1464005': 57
+    '1464086': 58
+    '1464087': 59
+    '1464088': 60
+    '1464238': 61
+    '1473393': 62
+    '1473394': 63
+    '1473403': 64
+    '1473404': 65
+    '1473406': 66
+    '1473410': 67
+    '1473412': 68
+    '1473415': 69
+    '1473474': 70
+    '1473477': 71
+    '1473479': 72
+    '1473482': 73
+    '1473488': 74
+    '1489835': 75
+    '1489836': 76
+    '1489837': 77
+    '1501524': 78
+    '1502392': 79
+    '1503844': 80
+    '1503847': 81
+    '1503855': 82
+    '1503891': 83
+    '1550461': 84
+    '155500': 85
+    '1584575': 86
+    '1584576': 87
+    '1585782': 88
+    '159156': 89
+    '1642399': 90
+    '1642400': 91
+    '164647': 92
+    '1660271': 93
+    '1686637': 94
+    '1686656': 95
+    '1686664': 96
+    '168927': 97
+    '168930': 98
+    '1693648': 99
+    '1695820': 100
+    '1695823': 101
+    '1695830': 102
+    '1695835': 103
+    '1695845': 104
+    '1695950': 105
+    '1695972': 106
+    '1695999': 107
+    '1696007': 108
+    '1696041': 109
+    '1751174': 110
+    '1936629': 111
+    '1937608': 112
+    '1937662': 113
+    '1958186': 114
+    '1958216': 115
+    '1962621': 116
+    '1963277': 117
+    '2010329': 118
+    '2026983': 119
+    '215896': 120
+    '223136': 121
+    '261052': 122
+    '261053': 123
+    '264305': 124
+    '265254': 125
+    '265559': 126
+    '273528': 127
+    '305080': 128
+    '305229': 129
+    '311994': 130
+    '314384': 131
+    '315176': 132
+    '315178': 133
+    '315277': 134
+    '320682': 135
+    '364606': 136
+    '364738': 137
+    '410257': 138
+    '414353': 139
+    '414750': 140
+    '417765': 141
+    '452212': 142
+    '457928': 143
+    '464374': 144
+    '502331': 145
+    '557256': 146
+    '559870': 147
+    '564287': 148
+    '564533': 149
+    '567623': 150
+    '581078': 151
+    '582863': 152
+    '582864': 153
+    '582865': 154
+    '584028': 155
+    '584126': 156
+    '587157': 157
+    '623316': 158
+    '638977': 159
+    '660312': 160
+    '660319': 161
+    '699703': 162
+    '741201': 163
+    '770463': 164
+    '781796': 165
+    '839362': 166
+    '841842': 167
+    '852110': 168
+    '862454': 169
+    '871513': 170
+    '903285': 171
+    '964752': 172
+    '999547': 173
+  cluster:
+    '1': 0
+    '10': 1
+    '11': 2
+    '13': 3
+    '14': 4
+    '15': 5
+    '17': 6
+    '2': 7
+    '3': 8
+    '4': 9
+    '5': 10
+    '6': 11
+    '7': 12
+    '8': 13
+    '9': 14
+  local_holiday:
+    '-': 0
+    Cantonizacion de Cayambe: 1
+    Cantonizacion de Cayambe-1: 2
+    Cantonizacion de Cayambe-2: 3
+    Cantonizacion de Cayambe-3: 4
+    Cantonizacion de Cayambe-4: 5
+    Cantonizacion de Cayambe-5: 6
+    Cantonizacion de El Carmen: 7
+    Cantonizacion de El Carmen-1: 8
+    Cantonizacion de El Carmen-2: 9
+    Cantonizacion de El Carmen-3: 10
+    Cantonizacion de El Carmen-4: 11
+    Cantonizacion de El Carmen-5: 12
+    Cantonizacion de Guaranda: 13
+    Cantonizacion de Guaranda-1: 14
+    Cantonizacion de Guaranda-2: 15
+    Cantonizacion de Guaranda-3: 16
+    Cantonizacion de Guaranda-4: 17
+    Cantonizacion de Guaranda-5: 18
+    Cantonizacion de Latacunga: 19
+    Cantonizacion de Latacunga-1: 20
+    Cantonizacion de Latacunga-2: 21
+    Cantonizacion de Latacunga-3: 22
+    Cantonizacion de Latacunga-4: 23
+    Cantonizacion de Latacunga-5: 24
+    Cantonizacion de Libertad: 25
+    Cantonizacion de Libertad-1: 26
+    Cantonizacion de Libertad-2: 27
+    Cantonizacion de Libertad-3: 28
+    Cantonizacion de Libertad-4: 29
+    Cantonizacion de Libertad-5: 30
+    Cantonizacion de Quevedo: 31
+    Cantonizacion de Quevedo-1: 32
+    Cantonizacion de Quevedo-2: 33
+    Cantonizacion de Quevedo-3: 34
+    Cantonizacion de Quevedo-4: 35
+    Cantonizacion de Quevedo-5: 36
+    Cantonizacion de Riobamba: 37
+    Cantonizacion de Riobamba-1: 38
+    Cantonizacion de Riobamba-2: 39
+    Cantonizacion de Riobamba-3: 40
+    Cantonizacion de Riobamba-4: 41
+    Cantonizacion de Riobamba-5: 42
+    Fundacion de Ambato: 43
+    Fundacion de Ambato-1: 44
+    Fundacion de Ambato-2: 45
+    Fundacion de Ambato-3: 46
+    Fundacion de Ambato-4: 47
+    Fundacion de Ambato-5: 48
+    Fundacion de Cuenca: 49
+    Fundacion de Cuenca-1: 50
+    Fundacion de Cuenca-2: 51
+    Fundacion de Cuenca-3: 52
+    Fundacion de Cuenca-4: 53
+    Fundacion de Cuenca-5: 54
+    Fundacion de Guayaquil: 55
+    Fundacion de Guayaquil-1: 56
+    Fundacion de Guayaquil-2: 57
+    Fundacion de Guayaquil-3: 58
+    Fundacion de Guayaquil-4: 59
+    Fundacion de Guayaquil-5: 60
+    Fundacion de Ibarra: 61
+    Fundacion de Ibarra-1: 62
+    Fundacion de Ibarra-2: 63
+    Fundacion de Ibarra-3: 64
+    Fundacion de Ibarra-4: 65
+    Fundacion de Ibarra-5: 66
+    Fundacion de Loja: 67
+    Fundacion de Loja-1: 68
+    Fundacion de Loja-2: 69
+    Fundacion de Loja-3: 70
+    Fundacion de Loja-4: 71
+    Fundacion de Loja-5: 72
+    Fundacion de Machala: 73
+    Fundacion de Machala-1: 74
+    Fundacion de Machala-2: 75
+    Fundacion de Machala-3: 76
+    Fundacion de Machala-4: 77
+    Fundacion de Machala-5: 78
+    Fundacion de Manta: 79
+    Fundacion de Manta-1: 80
+    Fundacion de Manta-2: 81
+    Fundacion de Manta-3: 82
+    Fundacion de Manta-4: 83
+    Fundacion de Manta-5: 84
+    Fundacion de Quito: 85
+    Fundacion de Quito-1: 86
+    Fundacion de Quito-2: 87
+    Fundacion de Quito-3: 88
+    Fundacion de Quito-4: 89
+    Fundacion de Quito-5: 90
+    Fundacion de Riobamba: 91
+    Fundacion de Riobamba-1: 92
+    Fundacion de Riobamba-2: 93
+    Fundacion de Riobamba-3: 94
+    Fundacion de Riobamba-4: 95
+    Fundacion de Riobamba-5: 96
+    Independencia de Ambato: 97
+    Independencia de Ambato-1: 98
+    Independencia de Ambato-2: 99
+    Independencia de Ambato-3: 100
+    Independencia de Ambato-4: 101
+    Independencia de Ambato-5: 102
+    Independencia de Guaranda: 103
+    Independencia de Guaranda-1: 104
+    Independencia de Guaranda-2: 105
+    Independencia de Guaranda-3: 106
+    Independencia de Guaranda-4: 107
+    Independencia de Guaranda-5: 108
+    Independencia de Latacunga: 109
+    Independencia de Latacunga-1: 110
+    Independencia de Latacunga-2: 111
+    Independencia de Latacunga-3: 112
+    Independencia de Latacunga-4: 113
+    Independencia de Latacunga-5: 114
+  national_holiday:
+    '-': 0
+    Batalla de Pichincha: 1
+    Batalla de Pichincha-1: 2
+    Batalla de Pichincha-2: 3
+    Batalla de Pichincha-3: 4
+    Batalla de Pichincha-4: 5
+    Batalla de Pichincha-5: 6
+    Black Friday: 7
+    Black Friday-1: 8
+    Black Friday-2: 9
+    Black Friday-3: 10
+    Black Friday-4: 11
+    Black Friday-5: 12
+    Carnaval: 13
+    Carnaval-1: 14
+    Carnaval-2: 15
+    Carnaval-3: 16
+    Carnaval-4: 17
+    Carnaval-5: 18
+    Cyber Monday: 19
+    Cyber Monday-1: 20
+    Cyber Monday-2: 21
+    Dia de Difuntos: 22
+    Dia de Difuntos-1: 23
+    Dia de Difuntos-2: 24
+    Dia de Difuntos-3: 25
+    Dia de Difuntos-4: 26
+    Dia de Difuntos-5: 27
+    Dia de la Madre: 28
+    Dia de la Madre-1: 29
+    Dia de la Madre-2: 30
+    Dia de la Madre-3: 31
+    Dia de la Madre-4: 32
+    Dia de la Madre-5: 33
+    Dia del Trabajo: 34
+    Dia del Trabajo-1: 35
+    Dia del Trabajo-2: 36
+    Dia del Trabajo-3: 37
+    Dia del Trabajo-4: 38
+    Dia del Trabajo-5: 39
+    Inauguracion Mundial de futbol Brasil: 40
+    Inauguracion Mundial de futbol Brasil-1: 41
+    Inauguracion Mundial de futbol Brasil-2: 42
+    Inauguracion Mundial de futbol Brasil-3: 43
+    Inauguracion Mundial de futbol Brasil-4: 44
+    Inauguracion Mundial de futbol Brasil-5: 45
+    Independencia de Cuenca: 46
+    Independencia de Guayaquil: 47
+    Independencia de Guayaquil-1: 48
+    Independencia de Guayaquil-2: 49
+    Independencia de Guayaquil-3: 50
+    Independencia de Guayaquil-4: 51
+    Independencia de Guayaquil-5: 52
+    'Mundial de futbol Brasil: Cuartos de Final': 53
+    'Mundial de futbol Brasil: Cuartos de Final-1': 54
+    'Mundial de futbol Brasil: Cuartos de Final-2': 55
+    'Mundial de futbol Brasil: Ecuador-Honduras': 56
+    'Mundial de futbol Brasil: Ecuador-Honduras-1': 57
+    'Mundial de futbol Brasil: Ecuador-Honduras-2': 58
+    'Mundial de futbol Brasil: Ecuador-Honduras-3': 59
+    'Mundial de futbol Brasil: Ecuador-Honduras-4': 60
+    'Mundial de futbol Brasil: Ecuador-Suiza': 61
+    'Mundial de futbol Brasil: Ecuador-Suiza-1': 62
+    'Mundial de futbol Brasil: Ecuador-Suiza-2': 63
+    'Mundial de futbol Brasil: Final': 64
+    'Mundial de futbol Brasil: Octavos de Final': 65
+    'Mundial de futbol Brasil: Octavos de Final-1': 66
+    'Mundial de futbol Brasil: Octavos de Final-2': 67
+    'Mundial de futbol Brasil: Octavos de Final-3': 68
+    'Mundial de futbol Brasil: Octavos de Final-4': 69
+    'Mundial de futbol Brasil: Octavos de Final-5': 70
+    'Mundial de futbol Brasil: Semifinales': 71
+    'Mundial de futbol Brasil: Semifinales-1': 72
+    'Mundial de futbol Brasil: Semifinales-2': 73
+    'Mundial de futbol Brasil: Tercer y cuarto lugar': 74
+    'Mundial de futbol Brasil: Tercer y cuarto lugar-1': 75
+    'Mundial de futbol Brasil: Tercer y cuarto lugar-2': 76
+    Navidad: 77
+    Navidad+1: 78
+    Navidad-1: 79
+    Navidad-2: 80
+    Navidad-3: 81
+    Navidad-4: 82
+    Navidad-5: 83
+    Primer Grito de Independencia: 84
+    Primer Grito de Independencia-1: 85
+    Primer Grito de Independencia-2: 86
+    Primer Grito de Independencia-3: 87
+    Primer Grito de Independencia-4: 88
+    Primer Grito de Independencia-5: 89
+    Primer dia del ano: 90
+    Primer dia del ano-1: 91
+    Primer dia del ano-2: 92
+    Primer dia del ano-3: 93
+    Primer dia del ano-4: 94
+    Primer dia del ano-5: 95
+    Puente Dia de Difuntos: 96
+    Puente Navidad: 97
+    Puente Primer dia del ano: 98
+    Recupero Puente Navidad: 99
+    Recupero Puente Navidad-1: 100
+    Recupero Puente Navidad-2: 101
+    Recupero Puente Navidad-3: 102
+    Recupero Puente Navidad-4: 103
+    Recupero Puente Navidad-5: 104
+    Recupero Puente Primer dia del ano: 105
+    Recupero Puente Primer dia del ano-1: 106
+    Recupero Puente Primer dia del ano-2: 107
+    Recupero Puente Primer dia del ano-3: 108
+    Recupero Puente Primer dia del ano-4: 109
+    Recupero Puente Primer dia del ano-5: 110
+    Recupero puente Navidad: 111
+    Recupero puente Navidad-1: 112
+    Recupero puente Navidad-2: 113
+    Recupero puente Navidad-3: 114
+    Recupero puente primer dia del ano: 115
+    Recupero puente primer dia del ano-1: 116
+    Recupero puente primer dia del ano-2: 117
+    Recupero puente primer dia del ano-3: 118
+    Recupero puente primer dia del ano-4: 119
+    Recupero puente primer dia del ano-5: 120
+    Terremoto Manabi: 121
+    Terremoto Manabi+1: 122
+    Terremoto Manabi+10: 123
+    Terremoto Manabi+11: 124
+    Terremoto Manabi+12: 125
+    Terremoto Manabi+13: 126
+    Terremoto Manabi+14: 127
+    Terremoto Manabi+16: 128
+    Terremoto Manabi+17: 129
+    Terremoto Manabi+18: 130
+    Terremoto Manabi+19: 131
+    Terremoto Manabi+2: 132
+    Terremoto Manabi+20: 133
+    Terremoto Manabi+22: 134
+    Terremoto Manabi+23: 135
+    Terremoto Manabi+24: 136
+    Terremoto Manabi+25: 137
+    Terremoto Manabi+27: 138
+    Terremoto Manabi+28: 139
+    Terremoto Manabi+29: 140
+    Terremoto Manabi+3: 141
+    Terremoto Manabi+30: 142
+    Terremoto Manabi+4: 143
+    Terremoto Manabi+6: 144
+    Terremoto Manabi+7: 145
+    Terremoto Manabi+8: 146
+    Terremoto Manabi+9: 147
+    Traslado Batalla de Pichincha: 148
+    Traslado Batalla de Pichincha-1: 149
+    Traslado Batalla de Pichincha-2: 150
+    Traslado Batalla de Pichincha-3: 151
+    Traslado Batalla de Pichincha-4: 152
+    Traslado Batalla de Pichincha-5: 153
+    Traslado Independencia de Guayaquil: 154
+    Traslado Independencia de Guayaquil-1: 155
+    Traslado Independencia de Guayaquil-2: 156
+    Traslado Independencia de Guayaquil-3: 157
+    Traslado Independencia de Guayaquil-4: 158
+    Traslado Independencia de Guayaquil-5: 159
+    Traslado Primer Grito de Independencia: 160
+    Traslado Primer Grito de Independencia-1: 161
+    Traslado Primer Grito de Independencia-2: 162
+    Traslado Primer Grito de Independencia-3: 163
+    Traslado Primer Grito de Independencia-4: 164
+    Traslado Primer Grito de Independencia-5: 165
+    Traslado Primer dia del ano: 166
+    Traslado Primer dia del ano-1: 167
+    Traslado Primer dia del ano-2: 168
+    Traslado Primer dia del ano-3: 169
+    Traslado Primer dia del ano-4: 170
+    Traslado Primer dia del ano-5: 171
+    Viernes Santo: 172
+    Viernes Santo-1: 173
+    Viernes Santo-2: 174
+    Viernes Santo-3: 175
+    Viernes Santo-4: 176
+    Viernes Santo-5: 177
+  onpromotion:
+    '-': 0
+    'True': 1
+  pos:
+    '1': 0
+    '10': 1
+    '11': 2
+    '12': 3
+    '13': 4
+    '14': 5
+    '15': 6
+    '16': 7
+    '19': 8
+    '2': 9
+    '20': 10
+    '21': 11
+    '24': 12
+    '27': 13
+    '28': 14
+    '29': 15
+    '3': 16
+    '31': 17
+    '32': 18
+    '33': 19
+    '34': 20
+    '35': 21
+    '36': 22
+    '37': 23
+    '38': 24
+    '39': 25
+    '4': 26
+    '40': 27
+    '41': 28
+    '42': 29
+    '44': 30
+    '45': 31
+    '46': 32
+    '47': 33
+    '48': 34
+    '49': 35
+    '5': 36
+    '50': 37
+    '51': 38
+    '53': 39
+    '54': 40
+    '6': 41
+    '7': 42
+    '8': 43
+    '9': 44
+  regional_holiday:
+    '-': 0
+    Provincializacion de Cotopaxi: 1
+    Provincializacion de Cotopaxi-1: 2
+    Provincializacion de Cotopaxi-2: 3
+    Provincializacion de Cotopaxi-3: 4
+    Provincializacion de Cotopaxi-4: 5
+    Provincializacion de Cotopaxi-5: 6
+    Provincializacion de Imbabura: 7
+    Provincializacion de Imbabura-1: 8
+    Provincializacion de Imbabura-2: 9
+    Provincializacion de Imbabura-3: 10
+    Provincializacion de Imbabura-4: 11
+    Provincializacion de Imbabura-5: 12
+    Provincializacion de Santo Domingo: 13
+    Provincializacion de Santo Domingo-1: 14
+    Provincializacion de Santo Domingo-2: 15
+    Provincializacion de Santo Domingo-3: 16
+    Provincializacion de Santo Domingo-4: 17
+    Provincializacion de Santo Domingo-5: 18
+  weekday:
+    '0': 0
+    '1': 1
+    '2': 2
+    '3': 3
+    '4': 4
+    '5': 5
+    '6': 6
+embedding_paddings: []
+embedding_sizes:
+  art: !!python/tuple
+  - 174
+  - 29
+  cluster: !!python/tuple
+  - 15
+  - 7
+  local_holiday: !!python/tuple
+  - 115
+  - 23
+  national_holiday: !!python/tuple
+  - 178
+  - 29
+  onpromotion: !!python/tuple
+  - 2
+  - 1
+  pos: !!python/tuple
+  - 45
+  - 13
+  regional_holiday: !!python/tuple
+  - 19
+  - 8
+  weekday: !!python/tuple
+  - 7
+  - 5
+hidden_continuous_size: 8
+hidden_continuous_sizes: {}
+hidden_size: 32
+learning_rate: 0.01
+log_gradient_flow: false
+log_interval: -1
+log_val_interval: -1
+lstm_layers: 1
+max_encoder_length: 84
+monotone_constaints: {}
+optimizer: adamw
+optimizer_params: null
+output_size: 1
+output_transformer: !!python/object:pytorch_forecasting.data.encoders.GroupNormalizer
+  center: true
+  groups:
+  - time_series
+  method: standard
+  method_kwargs: {}
+  missing_:
+    center: 65.56485748291016
+    scale: 29.148963928222656
+  norm_: !!python/object:pandas.core.frame.DataFrame
+    _flags:
+      allows_duplicate_labels: true
+    _metadata: []
+    _mgr: !!python/object/apply:pandas.core.internals.managers.BlockManager
+    - !!python/tuple
+      - !!python/object/apply:pandas._libs.internals._unpickle_block
+        - !!python/object/apply:numpy.core.multiarray._reconstruct
+          args:
+          - &id001 !!python/name:numpy.ndarray ''
+          - !!python/tuple
+            - 0
+          - !!binary |
+            Yg==
+          state: !!python/tuple
+          - 1
+          - !!python/tuple
+            - 2
+            - 665
+          - !!python/object/apply:numpy.dtype
+            args:
+            - f4
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - -1
+            - -1
+            - 0
+          - false
+          - !!binary |
+            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
+            PRhC1KX3QWjLH0L3OuFBpZ3WQQ==
+        - !!python/object/apply:builtins.slice
+          - 0
+          - 2
+          - 1
+        - 2
+    - - !!python/object/apply:pandas.core.indexes.base._new_Index
+        - &id002 !!python/name:pandas.core.indexes.base.Index ''
+        - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - !!binary |
+              Yg==
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 2
+            - !!python/object/apply:numpy.dtype
+              args:
+              - O8
+              - false
+              - true
+              state: !!python/tuple
+              - 3
+              - '|'
+              - null
+              - null
+              - null
+              - -1
+              - -1
+              - 63
+            - false
+            - - center
+              - scale
+          name: null
+      - !!python/object/apply:pandas.core.indexes.base._new_Index
+        - *id002
+        - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+            args:
+            - *id001
+            - !!python/tuple
+              - 0
+            - !!binary |
+              Yg==
+            state: !!python/tuple
+            - 1
+            - !!python/tuple
+              - 665
+            - !!python/object/apply:numpy.dtype
+              args:
+              - i8
+              - false
+              - true
+              state: !!python/tuple
+              - 3
+              - <
+              - null
+              - null
+              - null
+              - -1
+              - -1
+              - 0
+            - false
+            - !!binary |
+              AAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAUAAAAAAAAABgAAAAAAAAAH
+              AAAAAAAAAAgAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAsAAAAAAAAADAAAAAAAAAANAAAAAAAAAA4A
+              AAAAAAAADwAAAAAAAAAQAAAAAAAAABEAAAAAAAAAEgAAAAAAAAATAAAAAAAAABQAAAAAAAAAFQAA
+              AAAAAAAWAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAGwAAAAAAAAAcAAAA
+              AAAAAB0AAAAAAAAAHgAAAAAAAAAfAAAAAAAAACAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAACMAAAAA
+              AAAAJAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAoAAAAAAAAACkAAAAAAAAAKgAAAAAA
+              AAArAAAAAAAAACwAAAAAAAAALQAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAMAAAAAAAAAAxAAAAAAAA
+              ADIAAAAAAAAAMwAAAAAAAAA0AAAAAAAAADUAAAAAAAAANgAAAAAAAAA3AAAAAAAAADgAAAAAAAAA
+              OQAAAAAAAAA6AAAAAAAAADsAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAPwAAAAAAAABA
+              AAAAAAAAAEEAAAAAAAAAQgAAAAAAAABDAAAAAAAAAEQAAAAAAAAARQAAAAAAAABGAAAAAAAAAEcA
+              AAAAAAAASAAAAAAAAABJAAAAAAAAAEoAAAAAAAAASwAAAAAAAABMAAAAAAAAAE0AAAAAAAAATgAA
+              AAAAAABPAAAAAAAAAFAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAFMAAAAAAAAAVAAAAAAAAABVAAAA
+              AAAAAFYAAAAAAAAAVwAAAAAAAABYAAAAAAAAAFkAAAAAAAAAWgAAAAAAAABbAAAAAAAAAFwAAAAA
+              AAAAXQAAAAAAAABeAAAAAAAAAF8AAAAAAAAAYAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAYwAAAAAA
+              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
+              AAAAlwIAAAAAAACYAgAAAAAAAA==
+          name: time_series
+    _typ: dataframe
+    attrs: {}
+  scale_by_group: false
+  transformation: null
+reduce_on_plateau_min_lr: 1.0e-05
+reduce_on_plateau_patience: 10
+reduce_on_plateau_reduction: 2.0
+rescale: false
+share_single_variable_networks: false
+static_categoricals:
+- art
+- pos
+- cluster
+static_reals: []
+time_varying_categoricals_decoder:
+- weekday
+- onpromotion
+- national_holiday
+- regional_holiday
+- local_holiday
+time_varying_categoricals_encoder:
+- weekday
+- onpromotion
+- national_holiday
+- regional_holiday
+- local_holiday
+time_varying_reals_decoder:
+- time_idx
+- doy_sine
+- doy_cosine
+- relative_time_idx
+time_varying_reals_encoder:
+- time_idx
+- doy_sine
+- doy_cosine
+- relative_time_idx
+- sales
+- dcoilwtico
+weight_decay: 0.01
+x_categoricals:
+- art
+- pos
+- cluster
+- weekday
+- onpromotion
+- national_holiday
+- regional_holiday
+- local_holiday
+x_reals:
+- time_idx
+- doy_sine
+- doy_cosine
+- relative_time_idx
+- sales
+- dcoilwtico

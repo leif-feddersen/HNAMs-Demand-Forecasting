@@ -1,0 +1,18 @@
+Pct of negative effect given price increase: 0.5747554918326592
+Mean effect given price increase: -0.11516644060611725
+Pct of positive effect given price decrease: 0.5460340502074885
+Mean effect given price decrease: 0.18666596710681915
+
+Pct of negative effect given price increase: 0.5747554918326592
+Mean effect given price increase: -0.11516644060611725
+Pct of positive effect given price decrease: 0.5460340502074885
+Mean effect given price decrease: 0.18666596710681915
+
+Stable sign of effect sizes over horizons
+stable_sign_level       0.999984
+stable_sign_weekday     0.995636
+stable_sign_snap        0.996847
+stable_sign_National    0.994783
+stable_sign_Cultural    0.997743
+stable_sign_Sporting    0.998929
+stable_sign_relprice    0.998772

@@ -1,0 +1,7 @@
+Stable sign of effect sizes over horizons
+stable_sign_level          0.999839
+stable_sign_weekday        0.985975
+stable_sign_onpromotion    1.000000
+stable_sign_national       0.993838
+stable_sign_regional       0.999993
+stable_sign_local          0.999713

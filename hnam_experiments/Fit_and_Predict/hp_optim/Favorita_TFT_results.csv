@@ -1,0 +1,9 @@
+dropout,attention_head_size,hidden_size,lr,bs,grad_clip,enc_length,n_params,train_end,val_loss,test_loss,seconds_training,path
+0.1,4,240,0.001,128,100,84,2955092,1368,0.6606588959693909,0.7319512963294983,11662.850519,hp_optim/models/Favorita/TFT/lightning_logs/version_0/checkpoints/model-02-0.66.ckpt
+0.1,4,240,0.001,128,100,84,2955092,1399,0.699722945690155,0.8883475065231323,12692.000576,hp_optim/models/Favorita/TFT/lightning_logs/version_1/checkpoints/model-03-0.70.ckpt
+0.3,4,128,0.01,256,1,28,875000,1368,0.6996083855628967,0.7499846816062927,8717.404331,hp_optim/models/Favorita/TFT/lightning_logs/version_2/checkpoints/model-22-0.70.ckpt
+0.3,4,128,0.01,256,1,28,875000,1399,0.7331856489181519,0.9214189052581787,5259.193023,hp_optim/models/Favorita/TFT/lightning_logs/version_3/checkpoints/model-04-0.73.ckpt
+0.5,1,32,0.001,256,1,84,82040,1368,0.6965413093566895,0.757002592086792,9445.722984,hp_optim/models/Favorita/TFT/lightning_logs/version_4/checkpoints/model-04-0.70.ckpt
+0.5,1,32,0.001,256,1,84,82040,1399,0.7228466868400574,0.897122859954834,8660.795899,hp_optim/models/Favorita/TFT/lightning_logs/version_5/checkpoints/model-01-0.72.ckpt
+0.1,1,32,0.01,128,1,84,82040,1368,0.6581541299819946,0.7149618864059448,15365.635807,hp_optim/models/Favorita/TFT/lightning_logs/version_6/checkpoints/model-16-0.66.ckpt
+0.1,1,32,0.01,128,1,84,82040,1399,0.6912456750869751,0.8920881748199463,12958.13934,hp_optim/models/Favorita/TFT/lightning_logs/version_7/checkpoints/model-09-0.69.ckpt
