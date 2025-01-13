@@ -34,7 +34,7 @@ This repository contains the experimental code, data structure, and pre-trained 
 
 3. **Conda Environment**  
    - **`env.yml`** describes the environment needed to run all experiments (creates an environment named `hnam`).  
-   - This includes the [custom PyTorch Forecasting fork](https://github.com/DonLeif/pytorch-forecasting.git) with HNAM support.
+   - This includes the [custom PyTorch Forecasting fork](https://github.com/leif-feddersen/pytorch-forecasting/tree/hnam-mods) with HNAM support.
 
 ---
 
