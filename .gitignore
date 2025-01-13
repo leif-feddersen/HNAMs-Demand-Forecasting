@@ -4,13 +4,14 @@ Thumbs.db
 
 # Ignore unprocessed large datasets
 hnam_experiments/Datasets/Favorita/*
-!hnam_experimentsDatasets/Favorita/.gitkeep
+!hnam_experiments/Datasets/Favorita/.gitkeep
 hnam_experiments/Datasets/Walmart/*
-!hnam_experimentsDatasets/Walmart/.gitkeep
+!hnam_experiments/Datasets/Walmart/.gitkeep
 
 # Ignore complete dataset forecasts
 *_all.*
 *_insample.*
+!hnam_experiments/Evaluation/predict_all.py
 
 # Auto generated
 __pycache__/

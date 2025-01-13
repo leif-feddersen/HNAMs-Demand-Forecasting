@@ -58,37 +58,42 @@ conda activate hnam
 
 --- 
 
-<br><b>If you wish to do local inference in the complete datasets, continue with 3 and 4.</b><br>
+<br><b>If you wish to do local inference in the complete datasets to obtain
+the insample predictions required for the complete interpretability evaluation, continue with 3 and 4.
+Other evaluations can be run without steps 3 and 4<br></b><br>
 ### 3. Place the Data
 
 Obtain the original CSVs from Kaggle for both **Favorita** and **Walmart** competitions. Place them in:
 
 ```
-hnam_experiments/
-└── Datasets/
-    ├── Favorita/
-    │   ├── holidays_events.csv
-    │   ├── items.csv
-    │   ├── oil.csv
-    │   ├── sample_submission.csv
-    │   ├── stores.csv
-    │   ├── test.csv
-    │   ├── train.csv
-    │   └── transactions.csv
-    └── Walmart/
-        ├── calendar.csv
-        ├── sales_train_evaluation.csv
-        ├── sales_train_validation.csv
-        ├── sample_submission.csv
-        └── sell_prices.csv
+hnam_experiments/ 
+└── 
+  hnam_experiments/
+  └── Datasets/
+      ├── Favorita/
+      │   ├── holidays_events.csv
+      │   ├── items.csv
+      │   ├── oil.csv
+      │   ├── sample_submission.csv
+      │   ├── stores.csv
+      │   ├── test.csv
+      │   ├── train.csv
+      │   └── transactions.csv
+      └── Walmart/
+          ├── calendar.csv
+          ├── sales_train_evaluation.csv
+          ├── sales_train_validation.csv
+          ├── sample_submission.csv
+          └── sell_prices.csv
 ```
 
 
 ### 4. 
 
-Execute script `run.sh` from the repository’s root directory:
+Execute script `run.sh` from hnam_experiments folder.
 
 ~~~bash
+cd hnam_experiments
 bash run.sh
 ~~~
 
