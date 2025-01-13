@@ -2,9 +2,6 @@
 
 # Place the original kaggle data from Favorita and Walmart (kaggle competitions) inside Datasets
 
-# Activate the environment
-conda activate hnam
-
 # Preprocess the raw data
 cd Preprocessing
 python pre_walmart.py
