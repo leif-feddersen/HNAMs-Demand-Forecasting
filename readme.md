@@ -3,7 +3,6 @@
 This repository contains the experimental code, data structure, and pre-trained model checkpoints used in the paper:
 
 > **Hierarchical Neural Additive Models for Interpretable Demand Forecasts**  
-> Leif Feddersen, Catherine Cleophas
 > Under Review
 
 ---
@@ -18,15 +17,15 @@ This repository contains the experimental code, data structure, and pre-trained 
 
 2. **Repository Structure**  
    - **`Datasets/`**  
-     - Place original CSVs from the Kaggle competitions inside `Datasets/Favorita` and `Datasets/Walmart` (plus `Datasets/WalmartR` if applicable).  
+     - Place original CSVs from the Kaggle competitions inside `Datasets/Favorita` and `Datasets/Walmart`.  
    - **`Preprocessing/`**  
-     - Python scripts for data cleaning, transformation, and serialization (`.pkl` files).  
+     - Python scripts for data cleaning, transformation, and serialization.
    - **`Fit_and_Predict/`**  
      - Scripts for training various models (HNAM, TFT, ARIMA, Prophet, etc.).  
      - Includes subfolders with model checkpoints.  
    - **`Evaluation/`**  
      - Jupyter notebooks (`evaluation-*.ipynb`) for analyzing results (accuracy, interpretability, runtime).  
-     - `predict_all.py` script to generate forecasts from pre-trained models.  
+     - `predict_all.py` script to generate forecasts from pre-trained models for complete datasets. 
      - Figures, logs, and saved predictions (`.pkl`) are also stored here.  
    - **`Processed/`**  
      - Intermediate `.pkl` data files from the preprocessing stage.  
@@ -57,6 +56,9 @@ conda env create -f env.yml
 conda activate hnam
 ~~~
 
+--- 
+
+<br><b>If you wish to do local inference in the complete datasets, continue with 3 and 4.</b><br>
 ### 3. Place the Data
 
 Obtain the original CSVs from Kaggle for both **Favorita** and **Walmart** competitions. Place them in:
@@ -82,7 +84,7 @@ hnam_experiments/
 ```
 
 
-### 4. Run the Pipeline
+### 4. 
 
 Execute script `run.sh` from the repository’s root directory:
 
@@ -124,23 +126,14 @@ What this does:
 
 ## Citing this Work
 
-If you use or build upon this code, please cite our paper:
-
-```
-@misc{YourHNAMpaper,
-  title = {Hierarchical Neural Additive Models for Interpretable Demand Forecasts},
-  author = {Leif Feddersen, Catherine Cleophas},
-  year = {2024},
-  archivePrefix = {arXiv/Journal/Conference/etc.},
-  url = {Paper Link}
-}
-```
+Available after review process.
 
 ---
 
 ## Contact & Support
 
-- **Maintainer**: Leif Feddersen (feddersen@bwl.uni-kiel.de)
-- **Issues**: For any questions or bug reports, please open a [GitHub issue](https://github.com/leif-feddersen/hnam_experiments/issues).
+Available after review process.
+
+---
 
 Happy forecasting!
