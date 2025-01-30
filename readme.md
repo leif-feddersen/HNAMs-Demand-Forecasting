@@ -15,7 +15,6 @@ Licensed
    - Demonstrates the use of **Hierarchical Neural Additive Models (HNAMs)** for interpretable demand forecasting on two real-world datasets, obtainable from Kaggle with a Kaggle account:
      - [Favorita Grocery Sales Forecasting (Kaggle)](https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/)
      - [Walmart M5 Forecasting (Kaggle)](https://www.kaggle.com/competitions/m5-forecasting-accuracy/)
-     - Retail is a non-sharable proprietary dataset.
    - Includes scripts for data preprocessing, evaluation notebooks (accuracy/interpretability/runtime), and pre-trained HNAM checkpoints.
 
 2. **Repository Structure**  
@@ -159,6 +158,10 @@ This script calls `predict_all.py` on each dataset (`Walmart`, `WalmartR`, and `
      - Figure 8b: `favorita_robustness_global.tif`
 
 ---
+
+## Notes
+
+The Retail dataset in the paper is a proprietary dataset which can not be shared.
 
 ## Citing this Work
 
