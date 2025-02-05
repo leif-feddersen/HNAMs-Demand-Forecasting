@@ -46,7 +46,7 @@ Licensed
 
 ```bash
 git clone https://github.com/leif-feddersen/HNAMs-Demand-Forecasting.git
-cd hnam_experiments
+cd HNAMs-Demand-Forecasting
 ```
 
 ### 2. Create and Activate the Conda Environment
