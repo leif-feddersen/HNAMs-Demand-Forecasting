@@ -108,7 +108,7 @@ Note that preprocessing is memory intense and takes roughly 30GB for Favorita.
 
 ### 4. Run Hyperparameter Tuning (Optional)
 
-To find optimal hyperparameters for HNAMs and TFT, run `nn_hparam.py --dataset DATASET --model MODEL`. Results from hyperparamter tuning are found within `hp_optim` as CSV files.
+To find optimal hyperparameters for HNAMs and TFT, run `nn_hparam.py --dataset DATASET --model MODEL`. Results from hyperparameter tuning are found within `hp_optim` as CSV files.
 
 ### 5. Fit Models and Generate Predictions (Optional)
 
