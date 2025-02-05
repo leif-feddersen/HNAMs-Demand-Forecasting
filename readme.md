@@ -1,6 +1,5 @@
 # HNAM Experiments
 This repository contains the experimental code, data, and pre-trained model checkpoints used in the paper:
-Licensed 
 > **Hierarchical Neural Additive Models for Interpretable Demand Forecasts**  
 > *Under Review*
 >
