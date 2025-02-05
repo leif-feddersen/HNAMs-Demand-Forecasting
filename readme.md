@@ -45,7 +45,7 @@ Licensed
 ### 1. Clone This Repository
 
 ```bash
-git clone https://github.com/leif-feddersen/hnam_experiments.git
+git clone https://github.com/leif-feddersen/HNAMs-Demand-Forecasting.git
 cd hnam_experiments
 ```
 
