@@ -52,15 +52,16 @@ cd hnam_experiments
 ### 2. Create and Activate the Conda Environment
 
 Make sure you have [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) installed.
-The `env.yml` specifies required packages with versions. Install with:
+The `env.yml` specifies required packages with versions. 
+It also installs [this custom PyTorch Forecasting fork](https://github.com/leif-feddersen/pytorch-forecasting/tree/hnam-mods) adding HNAMs as a model.
+
+Install with:
 
 ```bash
 conda env create -f env.yml
 conda activate hnam
 ```
 
-> **Note**  
-> This environment relies on [this custom PyTorch Forecasting fork](https://github.com/leif-feddersen/pytorch-forecasting/tree/hnam-mods), which adds HNAMs support.
 
 ---
 
