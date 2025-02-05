@@ -4,7 +4,7 @@ Licensed
 > **Hierarchical Neural Additive Models for Interpretable Demand Forecasts**  
 > *Under Review*
 >
-> Assembled on Jan 27th 2025 by Leif Feddersen at Kiel University 
+> Assembled on Feb 5th 2025 by Leif Feddersen at Kiel University 
 > 
 
 ---
