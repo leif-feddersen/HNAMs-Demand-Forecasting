@@ -1,7 +1,7 @@
 # HNAM Experiments
 This repository contains the experimental code, data, and pre-trained model checkpoints used in the paper:
 > **Hierarchical Neural Additive Models for Interpretable Demand Forecasts**  
-> *Under Review*
+> *Published in the [International Journal of Forecasting](https://www.sciencedirect.com/science/article/pii/S0169207025000317), 42(1), 216–234*
 >
 > Assembled on Feb 5th 2025 by Leif Feddersen at Kiel University 
 > 
@@ -169,7 +169,20 @@ The Retail dataset in the paper is a proprietary dataset which can not be shared
 
 ## Citing this Work
 
-Citation details will be available following the review process.
+Feddersen, L., & Cleophas, C. (2026). Hierarchical neural additive models for interpretable demand forecasts. *International Journal of Forecasting*, 42(1), 216–234. [https://doi.org/10.1016/j.ijforecast.2025.03.003](https://doi.org/10.1016/j.ijforecast.2025.03.003)
+
+```bibtex
+@article{feddersen2026hierarchical,
+  title   = {Hierarchical neural additive models for interpretable demand forecasts},
+  author  = {Feddersen, Leif and Cleophas, Catherine},
+  journal = {International Journal of Forecasting},
+  volume  = {42},
+  number  = {1},
+  pages   = {216--234},
+  year    = {2026},
+  doi     = {10.1016/j.ijforecast.2025.03.003}
+}
+```
 
 ---
 
