@@ -1,0 +1,26 @@
+[project]
+name = "hnam-experiments"
+version = "1.0.0"
+description = "Experiments for 'Hierarchical Neural Additive Models for Interpretable Demand Forecasts'"
+readme = "readme.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "pandas==2.2.2",
+    "matplotlib==3.9.2",
+    "pytorch-forecasting",
+    "torch==2.4.0",
+    "statsforecast==1.7.6",
+    "scikit-learn==1.5.1",
+    "prophet==1.1.5",
+    "numpy==1.25.2",
+    "ipykernel",
+    "scikit-posthocs==0.9.1",
+]
+
+# The HNAM model itself lives in a fork of pytorch-forecasting,
+# on the `hnam-mods` branch (not the fork's default `master` branch).
+[tool.uv.sources]
+pytorch-forecasting = { git = "https://github.com/leif-feddersen/pytorch-forecasting.git", branch = "hnam-mods" }
+
+[tool.uv]
+package = false

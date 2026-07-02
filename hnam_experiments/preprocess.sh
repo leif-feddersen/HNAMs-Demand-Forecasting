@@ -4,5 +4,5 @@
 
 # Preprocess the raw data
 cd Preprocessing
-python pre_walmart.py
-python pre_favorita.py
+uv run python pre_walmart.py
+uv run python pre_favorita.py

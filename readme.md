@@ -48,18 +48,22 @@ git clone https://github.com/leif-feddersen/HNAMs-Demand-Forecasting.git
 cd HNAMs-Demand-Forecasting
 ```
 
-### 2. Create and Activate the Conda Environment
+### 2. Install the Environment with uv
 
-Make sure you have [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) installed.
-The `env.yml` specifies required packages with versions. 
-It also installs [this custom PyTorch Forecasting fork](https://github.com/leif-feddersen/pytorch-forecasting/tree/hnam-mods) adding HNAMs.
+Make sure you have [uv](https://docs.astral.sh/uv/getting-started/installation/) installed (e.g. `curl -LsSf https://astral.sh/uv/install.sh | sh`).
 
-Install with:
+Then, from the repository root:
 
 ```bash
-conda env create -f env.yml
-conda activate hnam
+uv sync
 ```
+
+This installs Python 3.10 and all pinned dependencies (see `pyproject.toml` / `uv.lock`) into a local `.venv`, including [this custom PyTorch Forecasting fork](https://github.com/leif-feddersen/pytorch-forecasting/tree/hnam-mods) which adds HNAMs.
+
+> **Where is the HNAM model code?** It is *not* in this repository and *not* on the fork's default (`master`) branch. It lives on the [`hnam-mods` branch](https://github.com/leif-feddersen/pytorch-forecasting/tree/hnam-mods) of the fork, mainly in [`pytorch_forecasting/models/hnam/__init__.py`](https://github.com/leif-feddersen/pytorch-forecasting/blob/hnam-mods/pytorch_forecasting/models/hnam/__init__.py). Note that GitHub's code search does not index non-default branches, so you must switch branches to see it.
+
+Run any script with `uv run python <script.py>`, or activate the environment with `source .venv/bin/activate`.
+To use the environment in the Jupyter notebooks, select the `.venv` interpreter as kernel (ipykernel is installed).
 
 
 ---
@@ -107,14 +111,14 @@ Note that preprocessing is memory intense and takes roughly 30GB for Favorita.
 
 ### 4. Run Hyperparameter Tuning (Optional)
 
-To find optimal hyperparameters for HNAMs and TFT, run `nn_hparam.py --dataset DATASET --model MODEL`. Results from hyperparameter tuning are found within `hp_optim` as CSV files.
+To find optimal hyperparameters for HNAMs and TFT, run `uv run python nn_hparam.py --dataset DATASET --model MODEL`. Results from hyperparameter tuning are found within `hp_optim` as CSV files.
 
 ### 5. Fit Models and Generate Predictions (Optional)
 
 To train and predict with various models, run the corresponding scripts in `Fit_and_Predict`. For example:
 
-- `nn_general.py --dataset Walmart --model HNAM`
-- `prophet_general.py --dataset Favorita`
+- `uv run python nn_general.py --dataset Walmart --model HNAM`
+- `uv run python prophet_general.py --dataset Favorita`
 - etc.
 
 **Approximate runtimes**:  
